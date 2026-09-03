@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SEU Tech Event</title>
+</head>
+
+<body>
+
+<header>
+    <h1>SEU Tech Event 2026</h1>
+    <p>Information and Registration Page</p>
+</header>
+
+<nav>
+    <a href="#about">About</a> |
+    <a href="#topics">Topics</a> |
+    <a href="#schedule">Schedule</a> |
+    <a href="#register">Register</a>
+</nav>
+
+<main>
+
+<section id="about">
+    <h2>About the Event</h2>
+
+    <div>
+        <p>SEU Tech Event is a technology event for students.</p>
+        <p>The <span>main goal</span> is to improve technical skills.</p>
+    </div>
+
+    <img src="tech-event.jpg" alt="Tech Event" width="300">
+
+    <p>
+        <a href="https://www.seu.edu.bd">Visit SEU Website</a>
+    </p>
+</section>
+
+
+<section id="topics">
+    <h2>Topics</h2>
+
+    <h3>Main Topics</h3>
+
+    <ul>
+        <li>Web Development</li>
+        <li>Artificial Intelligence</li>
+        <li>Cyber Security</li>
+    </ul>
+
+    <h3>Steps</h3>
+
+    <ol>
+        <li>Registration</li>
+        <li>Attend Event</li>
+        <li>Join Sessions</li>
+    </ol>
+
+    <h3>Detailed Topics</h3>
+
+    <ul>
+        <li>Web Development
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </li>
+        <li>Technology
+            <ul>
+                <li>AI</li>
+                <li>Cyber Security</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+
+<section id="schedule">
+    <h2>Schedule</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Topic</th>
+        </tr>
+
+        <tr>
+            <td>Sunday</td>
+            <td>10 AM</td>
+            <td>HTML</td>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>10 AM</td>
+            <td>AI</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>10 AM</td>
+            <td>Cyber Security</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>10 AM</td>
+            <td>Web Development</td>
+        </tr>
+
+    </table>
+</section>
+
+
+<section id="register">
+    <h2>Registration</h2>
+
+    <form>
+
+        Full Name:<br>
+        <input type="text"><br><br>
+
+        Student ID:<br>
+        <input type="number"><br><br>
+
+        Email:<br>
+        <input type="email"><br><br>
+
+        Preferred Date:<br>
+        <input type="date"><br><br>
+
+        Session:<br>
+        <input type="radio" name="session"> Morning
+        <input type="radio" name="session"> Afternoon
+
+        <br><br>
+
+        Topics:<br>
+        <input type="checkbox"> HTML
+        <input type="checkbox"> AI
+
+        <br><br>
+
+        <button>Register</button>
+
+    </form>
+</section>
+
+</main>
+
+
+<footer>
+    <p>SEU Tech Event 2026</p>
+    <p>Web and Internet Programming Lab</p>
+</footer>
+
+</body>
+
+</html>
+```
